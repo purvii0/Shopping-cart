@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping cart</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  
 </head>
 <body>
   <div class="Cart-Container">
@@ -22,14 +24,14 @@
                 <img src="img1.jpg">
                 <div>
                   <p>MintyFresh Settee</p>
-                  <small>Price: 29,999 Rs </small>
+                  <small id="price">Rs. 29,999 </small>
                 </br>
                   <a href="">Remove</a>
                 </div>
               </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>29,999Rs</td>
+            <td><input id="quantity" type="number" value="1"></td>
+            <td id="subtotal1">Rs. 29,999</td>
           </tr>
           <tr>
             <td>
@@ -37,14 +39,14 @@
                 <img src="img2.jpg">
                 <div>
                   <p>Elegant Twin Seating</p>
-                  <small>Price: 9,999 Rs </small>
+                  <small id="price">Rs. 9,999</small>
                 </br>
                   <a href="">Remove</a>
                 </div>
               </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>9,999Rs</td>
+            <td><input id="quantity" type="number" value="2"></td>
+            <td id="subtotal1">Rs. 19,998</td>
           </tr>
           <tr>
             <td>
@@ -52,14 +54,14 @@
                 <img src="img3.jpg">
                 <div>
                   <p>Powder Pink Perch</p>
-                  <small>Price: 11,000 Rs </small>
+                  <small id="price">Rs. 11,000  </small>
                 </br>
                   <a href="">Remove</a>
                 </div>
               </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>11,000Rs</td>
+            <td><input id="quantity" type="number" value="2"></td>
+            <td id="subtotal1">Rs. 22,000</td>
           </tr>
         </table>
 
@@ -68,15 +70,15 @@
           <table>
             <tr>
               <td>Subtotal</td>
-              <td>50,998Rs</td>
+              <td>Rs. 71,997</td>
             </tr>
             <tr>
               <td>Tax(15%)</td>
-              <td>7,649.7Rs</td>
+              <td>Rs. 10,799</td>
             </tr>
             <tr>
               <td>Total</td>
-              <td>58,647.7Rs</td>
+              <td>Rs. 82,796</td>
             </tr>
           </table>
 
@@ -85,5 +87,6 @@
       </div>
   </div>
  
+  
 </body>
 </html>
